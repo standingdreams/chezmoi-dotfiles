@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Douglas Rogers
+	email = designer.drogers@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Douglas Rogers
+#	email = designer.drogers@gmail.com
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[core]
+	ignorecase = false
