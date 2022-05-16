@@ -1,0 +1,9 @@
+{{- $email := promptString "email" -}}
+
+[data]
+  email = {{ $email | quote }}
+
+[git]
+  autoAdd = true
+  autoCommit = true
+  autoPush = true
