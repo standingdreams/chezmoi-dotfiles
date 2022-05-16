@@ -1,0 +1,18 @@
+version: "2"
+authtoken:
+region: us
+
+tunnels:
+  sdfed:
+    addr: 4691
+    proto: http
+    subdomain: sdfed
+    schemes:
+      - https
+
+  sdbed:
+    addr: 3000
+    proto: http
+    subdomain: sdbed
+    schemes:
+      - https
